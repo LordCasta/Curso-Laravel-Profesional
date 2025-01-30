@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PHPUnit">
+    <option name="directories">
+      <list>
+        <option value="$PROJECT_DIR$/03-modeldata/tests/Unit" />
+        <option value="$PROJECT_DIR$/03-modeldata/tests/Feature" />
+        <option value="$PROJECT_DIR$/04-controllers/tests/Unit" />
+        <option value="$PROJECT_DIR$/04-controllers/tests/Feature" />
+        <option value="$PROJECT_DIR$/02-blade/tests/Unit" />
+        <option value="$PROJECT_DIR$/02-blade/tests/Feature" />
+        <option value="$PROJECT_DIR$/01-helloworld/tests/Unit" />
+        <option value="$PROJECT_DIR$/01-helloworld/tests/Feature" />
+      </list>
+    </option>
+  </component>
+</project>
