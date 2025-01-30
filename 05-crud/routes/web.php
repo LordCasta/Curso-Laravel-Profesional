@@ -1,16 +1,9 @@
 <?php
 
+use App\Http\Controllers\PostController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NoteController;
 
-Route::get('/note', [NoteController::class, 'index'])->name('note.index');
+Route::resource('/note', NoteController::class);
 
-Route::get('/note/create', [NoteController::class, 'create'])->name('note.create');
-Route::post('/note', [NoteController::class, 'store'])->name('note.store');
-
-Route::get('/note/edit/{note}', [NoteController::class, 'edit'])->name('note.edit');
-Route::put('/note/update/{note}', [NoteController::class, 'update'])->name('note.update');
-
-Route::get('/note/show/{note}', [NoteController::class, 'show'])->name('note.show');
-
-Route::delete('/note/destroy/{note}', [NoteController::class, 'destroy'])->name('note.destroy');
+Route::resource('/post', PostController::class);
