@@ -3,14 +3,14 @@
   <component name="PHPUnit">
     <option name="directories">
       <list>
-        <option value="$PROJECT_DIR$/03-modeldata/tests/Unit" />
-        <option value="$PROJECT_DIR$/03-modeldata/tests/Feature" />
-        <option value="$PROJECT_DIR$/04-controllers/tests/Unit" />
-        <option value="$PROJECT_DIR$/04-controllers/tests/Feature" />
         <option value="$PROJECT_DIR$/02-blade/tests/Unit" />
         <option value="$PROJECT_DIR$/02-blade/tests/Feature" />
         <option value="$PROJECT_DIR$/01-helloworld/tests/Unit" />
         <option value="$PROJECT_DIR$/01-helloworld/tests/Feature" />
+        <option value="$PROJECT_DIR$/03-modeldata/tests/Unit" />
+        <option value="$PROJECT_DIR$/03-modeldata/tests/Feature" />
+        <option value="$PROJECT_DIR$/04-controllers/tests/Unit" />
+        <option value="$PROJECT_DIR$/04-controllers/tests/Feature" />
       </list>
     </option>
   </component>
