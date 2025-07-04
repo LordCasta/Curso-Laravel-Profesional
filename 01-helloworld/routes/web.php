@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 
-Route::view('/', 'landing.index')->name('index');
+Route::view('/', 'welcome')->name('index');
 Route::view('/about', 'landing.about')->name('about');
 // Route::get('users/{id}', function ($id) {
     
