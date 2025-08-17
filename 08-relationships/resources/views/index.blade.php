@@ -8,6 +8,11 @@
 </head>
 <body>
     <h1>Phones of {{ $user->name }}</h1>
+
+    <h1>{{ $user->image->url }}</h1>
+
+    <!-- Esta es con una sola relación--><h3>Company: {{ $user->phoneSim->company }}</h3>
+    <!-- Esta es con varias relaciones--><h3>Company: {{ $user->phoneSims->company }}</h3>
      <ul>
     @foreach ($user->roles as $role)
        
